@@ -1,4 +1,14 @@
+.shadow{
 
+border: 1px solid rgb(235, 234, 234);
+
+}
+
+
+
+.home-container{
+    margin: 20px;
+}
 
 .navbar h2 {
     font-size: 19px;
@@ -193,6 +203,17 @@ input.input-text {
     }
 
 @media(max-width:600px){
+    .flipcart-deals h2 {
+       
+        margin-right: 0px;
+    }
+    .box-price {
+        display: initial;
+       margin-left: 0px;
+    }
+    .search {
+        display: initial;
+    }
     .container-card1 {
         display: initial;
     }
@@ -209,4 +230,8 @@ input.input-text {
         margin-left: 0px;
        
     }
+    .enter-code {
+        display: initial;
+    }
+   
 }
