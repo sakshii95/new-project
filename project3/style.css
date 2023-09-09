@@ -1,0 +1,115 @@
+
+.deals-voucher {
+    display: table;
+    margin: auto;
+}
+
+.nav-link a {
+    margin-left: 10px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.nav-link a {
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+}
+.text-code h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.logo img {
+    width: 35%;
+}
+.voucher-details {
+    margin: auto;
+    padding: 10px;
+    background-color: #efeeee;
+    width: 65%;
+}
+.voucher-details h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.brand {
+    display: flex;
+    align-items: center; 
+}
+.expiry {
+    display: flex;  
+    align-items: center;  
+}
+.email {
+    display: flex;
+    align-items: center;  
+
+}
+.brand h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 153px;
+    color: red;
+    font-weight: 500;
+}
+.expiry  h3{
+    margin-left: 153px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.email h3 {
+    margin-left: 153px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.choice.gift {
+    text-align: center;
+}
+.voucher-details h3 {
+    color: #343333;
+    font-size: 20px;
+    text-align: center;
+}
+.choice.gift h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #3e3d3d;
+}
+.choice.gift h4 {
+    margin: auto;
+    width: 20%;
+    color: white;
+    padding: 11px;
+    background-color: red;
+}
+.text-code h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.choice.gift {
+    text-align: center;
+    margin-top: 56px;
+}
+@media(max-width:600px){
+    .email h3 {
+        margin-left: 0px;
+    }
+
+    .expiry  h3{
+        margin-left: 0px;
+    }
+    .brand h3 {
+        margin-left: 0px;
+      
+    }
+
+}
